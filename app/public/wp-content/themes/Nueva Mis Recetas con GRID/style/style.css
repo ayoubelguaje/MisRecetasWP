@@ -1,0 +1,114 @@
+@import 'reset.css';
+@import 'basic.css';
+@import 'layout.css';
+@import 'grid.css';
+@import 'contactar.css';
+@import 'recetas.css';
+@import 'receta.css';
+/* ======== Star Header ======== */
+header{
+    background-color: lightblue;
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #08526d;
+    
+}
+header span{
+    color: #ec1c23;
+}
+/* ======== End Header ======== */
+/* ======== STAR NavBar ======== */
+
+nav ul {
+    margin-bottom: ;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+nav ul li::after {
+    content: ' |';
+    font-weight: 700;
+    
+}
+nav ul li:last-child::after {
+    content: '';
+}
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+nav ul li a:hover {
+    color:dodgerblue;
+}
+nav ul li a.active {
+    color: dodgerblue;
+}
+/* ======== End NavBar ======== */
+
+/* ======== Star Content ======= */
+main  h2{
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #ec1c23;
+}
+main  h3{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: .5em;
+    color: #08526d;
+}
+/* ======== End Content ======= */
+
+/* ======== Star Footer ====== */
+footer{
+    background-color: lightblue;
+    padding: 20px 0;
+}
+footer h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #08526d;
+}
+footer h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+   
+}
+footer p{
+    line-height: 1.6;
+    text-align: start;
+}
+footer ul li {
+    margin-bottom: 10px;
+    
+}
+footer ul li a{
+    color: #ec1c23;
+}
+footer a:hover{
+    color: #08526d;
+}
+footer i{
+    color: #ec1c23;
+    margin-right: 5px;
+}
+footer span {
+    font-weight: 700;
+}
+/* ======== End Footer ====== */
+

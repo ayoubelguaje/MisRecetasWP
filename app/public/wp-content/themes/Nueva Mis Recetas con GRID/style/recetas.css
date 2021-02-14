@@ -1,0 +1,11 @@
+div .pg-recetas{
+    margin-top: 100px;
+    margin-bottom: 50px; 
+}
+main section h2{
+    text-align: left;
+    margin-top: 20px;
+}
+main section div span {
+    color: #ec1c23;
+}
