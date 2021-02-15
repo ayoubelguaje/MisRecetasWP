@@ -22,7 +22,9 @@ header span{
 }
 /* ======== End Header ======== */
 /* ======== STAR NavBar ======== */
-
+nav{
+    text-align: center;
+}
 nav ul {
     margin-bottom: ;
 }
