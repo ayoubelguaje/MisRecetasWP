@@ -126,6 +126,10 @@ footer span {
     
     outline: none;
 }
+#btn-scroll:hover{
+    background-color: blueviolet;
+}
+
 .scroll{
     display: none;
 }
