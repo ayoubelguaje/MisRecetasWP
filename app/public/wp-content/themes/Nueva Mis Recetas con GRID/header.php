@@ -32,7 +32,7 @@
     ); ?>
     </div>
     
-    <nav class=" mt-2">
+    <!--<nav class=" mt-2">
         <div class="container">
             <ul>
                 <li><a class="active fnt-mob" href="index.html">Inicio</a></li>
@@ -41,4 +41,4 @@
                 <li><a href="contactar.html">Contactar</a></li>
             </ul>
         </div>
-    </nav>
+    </nav>-->

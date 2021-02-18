@@ -19,11 +19,13 @@ header h1{
 }
 header span{
     color: #ec1c23;
+    
 }
 /* ======== End Header ======== */
 /* ======== STAR NavBar ======== */
 nav{
     text-align: center;
+    margin-top: 3em;
 }
 nav ul {
     margin-bottom: ;
@@ -33,6 +35,7 @@ nav ul li {
     margin-right: 10px;
     font-size: 20px;
     margin-bottom: 10px;
+    width: f;
 }
 nav ul li::after {
     content: ' |';
@@ -45,7 +48,7 @@ nav ul li:last-child::after {
 nav ul li a {
     text-decoration: none;
     color:black;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     
 }
@@ -114,3 +117,18 @@ footer span {
 }
 /* ======== End Footer ====== */
 
+#btn-scroll{
+    padding: 5px;
+    position: fixed;
+    color: tomato;
+    top: 300px;
+    right: 50px;
+    
+    outline: none;
+}
+.scroll{
+    display: none;
+}
+html{
+    scroll-behavior: smooth;
+}

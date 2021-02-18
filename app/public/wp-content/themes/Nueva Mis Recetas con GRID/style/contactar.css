@@ -13,6 +13,8 @@ main form textarea {
     width: 100%;
     padding: 5px;
     border: 2px solid gray;
+    font-family: inherit;
+    font-size: large;
 }
 main form button{
     background-color: #ec1c23;
@@ -27,5 +29,6 @@ main form button:hover{
     background-color: #08526d;
 }
 input{
-    font: inherit;
+    font-family: inherit;
+    font-size:medium;
 }
